@@ -166,6 +166,30 @@ body, html {
 	opacity: .5;
 	text-shadow: rgb(58 78 94) 0 0 10px;
 }
+
+
+
+@media (pointer:none), (pointer:coarse) {
+	.showcase__header__instruction1, .showcase__header__instruction2 {
+		opacity: 100%;
+	}
+	.showcase__header__instruction2 {
+		opacity: 100%;
+	}
+	.showcase__header__instruction3 {
+		opacity: 100%;
+	}
+
+	.showcase__title {
+		opacity: 100%;
+	}
+}
+
+
+
+
+
+
 .showcase-carousel .swiper-wrapper {
 	transition: var(--transition);
 }
