@@ -169,19 +169,19 @@ body, html {
 
 
 
-@media (pointer:none), (pointer:coarse) {
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
 	.showcase__header__instruction1, .showcase__header__instruction2 {
-		opacity: 100%;
+		opacity: 0;
 	}
 	.showcase__header__instruction2 {
-		opacity: 100%;
+		opacity: 0;
 	}
 	.showcase__header__instruction3 {
-		opacity: 100%;
+		opacity: 0;
 	}
 
 	.showcase__title {
-		opacity: 100%;
+		opacity: 0;
 	}
 }
 
