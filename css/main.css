@@ -120,70 +120,121 @@ body, html {
 .showcase__header span {
 	color: var(--accent);
 }
-.showcase__header__instruction1, .showcase__header__instruction2 {
-	position: absolute;
-	user-select: none;
-	text-align: left;
-	width: 100%;
-	z-index: 1;
-	top: 80px;
-	left: 150px;
-	font-family: assassin-st, sans-serif;
-	font-size: 25px;
-	color: rgba(255, 255, 255, .75);
-	opacity: .5;
-	text-shadow: rgb(58 78 94) 0 0 10px;
-}
-.showcase__header__instruction2 {
-	left: 165px;
-	top: 100px;
-}
-.showcase__header__instruction3 {
-	position: absolute;
-	user-select: none;
-	text-align: right;
-	width: 100%;
-	z-index: 1;
-	top: 80px;
-	right: 100px;
-	font-family: assassin-st, sans-serif;
-	font-size: 25px;
-	color: rgba(255, 255, 255, .75);
-	opacity: .5;
-	text-shadow: rgb(58 78 94) 0 0 10px;
-}
-.showcase__title {
-	position: absolute;
-	user-select: none;
-	text-align: right;
-	width: 100%;
-	z-index: 1;
-	bottom: 0px;
-	right: 10px;
-	font-family: assassin-st, sans-serif;
-	font-size: 15px;
-	color: rgba(255, 255, 255, .75);
-	opacity: .5;
-	text-shadow: rgb(58 78 94) 0 0 10px;
-}
 
 
+
+
+/*TEST RESOLUTION*/
 
 @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
 	.showcase__header__instruction1, .showcase__header__instruction2 {
+		display: none;
 		opacity: 0;
 	}
 	.showcase__header__instruction2 {
+		display: none;
 		opacity: 0;
 	}
 	.showcase__header__instruction3 {
+		display: none;
 		opacity: 0;
 	}
 
 	.showcase__title {
+		display: none;
 		opacity: 0;
 	}
 }
+@media (max-width: 540px) and (min-width: 400px){
+	.showcase__header__instruction1, .showcase__header__instruction2 {
+		display: none;
+		opacity: 0;
+	}
+	.showcase__header__instruction2 {
+		display: none;
+		opacity: 0;
+	}
+	.showcase__header__instruction3 {
+		display: none;
+		opacity: 0;
+	}
+
+	.showcase__title {
+		display: none;
+		opacity: 0;
+	}
+  }
+  @media (max-width: 399px){
+	.showcase__header__instruction1, .showcase__header__instruction2 {
+		display: none;
+		opacity: 0;
+	}
+	.showcase__header__instruction2 {
+		display: none;
+		opacity: 0;
+	}
+	.showcase__header__instruction3 {
+		display: none;
+		opacity: 0;
+	}
+
+	.showcase__title {
+		display: none;
+		opacity: 0;
+	}
+  }
+@media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
+	.showcase__header__instruction1, .showcase__header__instruction2 {
+		position: absolute;
+		user-select: none;
+		text-align: left;
+		width: 100%;
+		z-index: 1;
+		top: 80px;
+		left: 150px;
+		font-family: assassin-st, sans-serif;
+		font-size: 25px;
+		color: rgba(255, 255, 255, .75);
+		opacity: .5;
+		text-shadow: rgb(58 78 94) 0 0 10px;
+	}
+	.showcase__header__instruction2 {
+		left: 165px;
+		top: 100px;
+	}
+	.showcase__header__instruction3 {
+		position: absolute;
+		user-select: none;
+		text-align: right;
+		width: 100%;
+		z-index: 1;
+		top: 80px;
+		right: 100px;
+		font-family: assassin-st, sans-serif;
+		font-size: 25px;
+		color: rgba(255, 255, 255, .75);
+		opacity: .5;
+		text-shadow: rgb(58 78 94) 0 0 10px;
+	}
+	
+	.showcase__title {
+		position: absolute;
+		user-select: none;
+		text-align: right;
+		width: 100%;
+		z-index: 1;
+		bottom: 0px;
+		right: 10px;
+		font-family: assassin-st, sans-serif;
+		font-size: 15px;
+		color: rgba(255, 255, 255, .75);
+		opacity: .5;
+		text-shadow: rgb(58 78 94) 0 0 10px;
+	}
+}
+
+/*TEST RESOLUTION*/
+
 
 
 
